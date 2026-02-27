@@ -58,7 +58,9 @@ public class dbconnection {
                                     case 2:acc_m.withdrawal(account_no);
                                     break;
                                     case 3:acc_m.transfer_amount(account_no);
+                                    break;
                                     case 4:acc_m.check_balance(account_no);
+                                    break;
                                     case 5:
                                         System.out.println("logged  out successfully");
                                         break;
